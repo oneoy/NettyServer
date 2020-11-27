@@ -1,0 +1,9 @@
+server:
+  port: 80
+  ssl:
+    enabled: false #默认为true 开启  若不使用https则可以关闭
+    key-store: s.com.jks #注意 读取的是jar包外的证书文件
+    key-store-type: JKS
+    key-store-password: 1
+  servlet:
+    context-path: /
